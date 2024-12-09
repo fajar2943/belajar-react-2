@@ -289,6 +289,13 @@ const OtherIcon = () => (
     <path d="M13 9V3H21V9H13ZM3 13V3H11V13H3ZM13 21V11H21V21H13ZM3 21V15H11V21H3ZM5 11H9V5H5V11ZM15 19H19V13H15V19ZM15 7H19V5H15V7ZM5 19H9V17H5V19Z" fill="#878787"/>
   </IconWrapper>
 );
+const UpRightIcon = () => (
+  <IconWrapper>
+    <rect width="24" height="24" rx="12" fill="white"/>
+    <path d="M8.66669 15.3333L15.3334 8.66667" stroke="#299D91" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8.66669 8.66667H15.3334V15.3333" stroke="#299D91" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </IconWrapper>
+);
 
 export const Icon = {
   Overview: OverviewIcon,
@@ -309,4 +316,5 @@ export const Icon = {
   Transportation: TransportationIcon,
   Entertainment: EntertainmentIcon,
   Other: OtherIcon,
+  Upright: UpRightIcon,
 };
